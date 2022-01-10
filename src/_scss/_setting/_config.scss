@@ -1,0 +1,34 @@
+@charset "utf-8";
+// ====================================
+// 共通で使う変数を設定
+// ====================================
+
+//base-size
+$base-size: 5;
+
+//breakPoint
+$break-point-pc: 1200px;
+$break-point-tab: 960px;
+$break-point-sp: 768px;
+
+//transition 動き
+$linear: .1s linear;
+
+
+:root{
+  // color
+  --clr-base: #333;
+  --clr-err: #cf1010;
+  --clr-border: #000;
+  --clr-pink: #000;
+  --clr-pinkRGB: #000;
+  --clr-white: #000;
+  --clr-pink: #000;
+  --clr-pink: #000;
+  --clr-pink: #000;
+  --clr-pinkRGB: #000;
+  --clr-white: #000;
+  --clr-pink: #000;
+  --clr-pinkRGB: #000;
+  --clr-white: #000;
+}

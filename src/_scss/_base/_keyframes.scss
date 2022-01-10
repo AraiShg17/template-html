@@ -1,0 +1,107 @@
+/* ==========================================================================
+ Keyframes
+========================================================================== */
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: .3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes drop {
+  0% {
+    top: -50vh;
+  }
+  100% {
+    top: 220vh;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotateReverse {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(30px);
+  }
+}
+
+@keyframes worries {
+  0% {
+    transform: translate(2px, 3px) rotate(2deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+
+@keyframes enterRotate {
+  0% {
+    opacity: 0;
+    transform: rotate(-180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
+@keyframes enterClick {
+  0% {
+    transform: scale(.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes circleLoop {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(.4);
+    opacity: 0;
+  }
+}
+
+
+@keyframes cloudMove {
+  0% {
+    transform: translateX(-10vw);
+  }
+  100% {
+    transform: translateX(200vw);
+  }
+}
+
+@keyframes cloudMove2 {
+  0% {
+    transform: translateX(10vw);
+  }
+  100% {
+    transform: translateX(200vw);
+  }
+}

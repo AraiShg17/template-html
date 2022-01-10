@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@use "../_setting/_config" as *;
+
+// ====================================
+// mixin
+// ====================================
+
+
+@mixin pc() {
+	@media screen and (min-width: $break-point-sp) {
+		@content;
+	}
+}
+@mixin sp() {
+	@media screen and (max-width: $break-point-sp) {
+		@content;
+	}
+}
